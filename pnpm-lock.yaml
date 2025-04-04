@@ -148,32 +148,6 @@ overrides:
   langchain>axios: 1.8.2
   snowflake-sdk>axios: 1.8.2
 
-patchedDependencies:
-  '@types/express-serve-static-core@5.0.6':
-    hash: d602248fcd302cf5a794d1e85a411633ba9635ea5d566d6f2e0429c7ae0fa3eb
-    path: patches/@types__express-serve-static-core@5.0.6.patch
-  '@types/uuencode@0.0.3':
-    hash: 083a73709a54db57b092d986b43d27ddda3cb8008f9510e98bc9e6da0e1cbb62
-    path: patches/@types__uuencode@0.0.3.patch
-  '@types/ws@8.5.4':
-    hash: 3daa0c4c940b0286c9877b0413548ff53acada5b927b75566ac76deee7a49357
-    path: patches/@types__ws@8.5.4.patch
-  bull@4.12.1:
-    hash: 4b8aae78debc54697a9106a44b1a949089d4facfeee057883e32116ab8c80f68
-    path: patches/bull@4.12.1.patch
-  eslint-plugin-n8n-local-rules:
-    hash: e0fd59254ab02473c6940fa25fcc8102ebc7d371c015ec53333a43f48af33cc2
-    path: patches/eslint-plugin-n8n-local-rules.patch
-  pkce-challenge@3.0.0:
-    hash: 4fa087c659ab74f146b6e9ff6ecee9f497d1d8a57d5a2bbb9c0c7a0356b3c33b
-    path: patches/pkce-challenge@3.0.0.patch
-  pyodide@0.23.4:
-    hash: c1002dacf7f6d0827d23aaf6cf2845e1b0c351339306c4ad660b8cd72077976c
-    path: patches/pyodide@0.23.4.patch
-  vue-tsc@2.2.8:
-    hash: e2aee939ccac8a57fe449bfd92bedd8117841579526217bc39aca26c6b8c317f
-    path: patches/vue-tsc@2.2.8.patch
-
 importers:
 
   .:
